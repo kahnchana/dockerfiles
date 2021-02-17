@@ -27,5 +27,6 @@ RUN pip install pyyaml~=5.3.1
 RUN pip install scipy~=1.5.4
 RUN pip install scikit-learn~=0.23.2
 RUN pip install tensorboardx~=2.1
+RUN pip install timm==0.3.2
 
 ENV HOME /home/kanchanaranasinghe
